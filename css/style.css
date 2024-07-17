@@ -7,7 +7,7 @@
 body {
 
     display: block;
-    height: 4000px;
+    /* height: 4000px; */
 }
 
 .header {
@@ -113,7 +113,32 @@ li:hover {
     float: left;
     margin: 70px;
     padding-top: 20px;
+    position: relative;
 }
+
+
+.div2::after,
+.div3::after,
+.div4::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    height: 0%;
+    background-color: gray;
+    z-index: 2;
+    width: 0%;
+    transition: .4s;
+    left: 0;
+    opacity: .3;
+}
+
+.div2:hover::after,
+.div3:hover::after,
+.div4:hover::after {
+    height: 100%;
+    width: 100%;
+}
+
 
 .img1,
 .img2,
@@ -145,23 +170,16 @@ li:hover {
     font-size: 27px;
 }
 
-.div2:hover {
-    background-color: grey;
-    transition: 1.5s;
-    color: aliceblue;
-}
-
-.div3:hover {
-    background-color: grey;
-    transition: 1.5s;
-    color: aliceblue;
-}
-
+/* 
+.div2:hover,
+.div3:hover,
 .div4:hover {
     background-color: grey;
     transition: 1.5s;
     color: aliceblue;
-}
+} */
+
+
 
 .paragraph7 {
     font-size: 45px;
@@ -201,6 +219,7 @@ li:hover {
     position: relative;
 
 }
+
 .photo1::after {
     content: "";
     position: relative;
@@ -307,7 +326,7 @@ li:hover {
     background-color: grey;
     color: white;
     transition: 1.5s;
-} 
+}
 
 .paragraph9 {
     font-size: 45px;
@@ -406,4 +425,26 @@ li:hover {
 
 .container {
     background-color: #fcf9f9;
+}
+
+.fix-background {
+    height: 30vh;
+    width: 100%;
+    background-image: url("../images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 200vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fix-background .card{
+    color:  #fff;
+    background-color: #7d7d7d;    
+    height: 90px;
+    width: 90px;
+    border-radius: 8px;
+
 }
