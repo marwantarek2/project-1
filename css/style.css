@@ -1,0 +1,409 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    display: block;
+    height: 4000px;
+}
+
+.header {
+    height: 70px;
+    background-color: rgb(15, 10, 10);
+    position: sticky;
+}
+
+.image1 {
+    width: 200px;
+    height: 70px;
+    margin-left: 70px;
+    float: left;
+}
+
+ul {
+    margin-left: 950px;
+}
+
+ul a li {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 20px;
+    font-size: larger;
+    cursor: pointer;
+}
+
+li:hover {
+    color: rgb(49, 103, 103);
+    transition: 2s;
+}
+
+
+.div1 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background-image: url(../images/pexels-photo-220182.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.btn1,
+.btn2 {
+    width: 100px;
+    height: 35px;
+    border: 3px solid black;
+    border-radius: 5px;
+    font-size: medium;
+    cursor: pointer;
+}
+
+.btn1:hover {
+    background-color: rgb(86, 86, 86);
+    transition: 2s;
+}
+
+.btn2:hover {
+    background-color: rgb(86, 86, 86);
+    transition: 2s;
+}
+
+.paragraph1 {
+    font-size: 65px;
+    font-weight: 800;
+    padding: 15px;
+}
+
+.paragraph2 {
+    font-size: 40px;
+    font-weight: 600;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+.title {
+    margin: 210px;
+}
+
+.paragraph3 {
+    font-size: 55px;
+    font-weight: 700;
+
+}
+
+.line {
+    width: 100px;
+    height: 4px;
+    background-color: blue;
+    margin-top: 10px;
+    margin-left: 700px;
+    display: block;
+}
+
+.div2,
+.div3,
+.div4 {
+    width: 360px;
+    height: 250px;
+    border: 2px solid black;
+    float: left;
+    margin: 70px;
+    padding-top: 20px;
+}
+
+.img1,
+.img2,
+.img3 {
+    width: 40px;
+    height: 25px;
+}
+
+.paragraph4,
+.paragraph5,
+.paragraph6 {
+    font-size: 25px;
+    font-weight: bold;
+    padding: 20px 0;
+}
+
+.content1,
+.content2,
+.content3 {
+    font-size: 19px;
+    font-weight: bold;
+    padding: 13px 0;
+}
+
+.link1,
+.link2,
+.link3 {
+    text-decoration: none;
+    font-size: 27px;
+}
+
+.div2:hover {
+    background-color: grey;
+    transition: 1.5s;
+    color: aliceblue;
+}
+
+.div3:hover {
+    background-color: grey;
+    transition: 1.5s;
+    color: aliceblue;
+}
+
+.div4:hover {
+    background-color: grey;
+    transition: 1.5s;
+    color: aliceblue;
+}
+
+.paragraph7 {
+    font-size: 45px;
+    font-weight: 700;
+
+}
+
+.line2 {
+    width: 100px;
+    height: 4px;
+    background-color: blue;
+    margin-top: 10px;
+    margin-left: 700px;
+    display: block;
+}
+
+.div5 {
+    margin-top: 600px;
+}
+
+.div6 {
+    height: 830px;
+    background-color: #eee;
+    margin-top: 30px;
+    position: relative;
+}
+
+.photo1,
+.photo2,
+.photo3,
+.photo4,
+.photo5,
+.photo6 {
+    width: 350px;
+    height: 300px;
+    margin: 60px;
+    position: relative;
+
+}
+.photo1::after {
+    content: "";
+    position: relative;
+    background-color: aqua;
+
+}
+
+.paragraph8 {
+    font-size: 45px;
+    font-weight: 700;
+
+}
+
+.line3 {
+    width: 100px;
+    height: 4px;
+    background-color: blue;
+    margin-top: 10px;
+    margin-left: 700px;
+    display: block;
+}
+
+.div7 {
+    margin-top: 60px;
+}
+
+.offer1,
+.offer2,
+.offer3,
+.offer4,
+.offer5,
+.offer6 {
+    overflow: hidden;
+    width: 350px;
+    height: 250px;
+    float: left;
+    border: 2px solid black;
+    margin: 75px;
+    padding: 40px;
+}
+
+.pic1,
+.pic2,
+.pic3,
+.pic4,
+.pic5,
+.pic6 {
+    width: 40px;
+    height: 40px;
+}
+
+.text1,
+.text2,
+.text3,
+.text4,
+.text5,
+.text6 {
+    font-size: 30px;
+    padding: 15px;
+}
+
+.p1,
+.p2,
+.p3,
+.p4,
+.p5,
+.p6 {
+    font-size: 19px;
+    font-weight: bold;
+    color: rgb(181, 176, 176);
+}
+
+.offer2:hover {
+    background-color: grey;
+    color: white;
+    transition: 1s;
+}
+
+.offer3:hover {
+    background-color: grey;
+    color: white;
+    transition: 1s;
+}
+
+.offer4:hover {
+    background-color: grey;
+    color: white;
+    transition: 1s;
+}
+
+.offer5:hover {
+    background-color: grey;
+    color: white;
+    transition: 1s;
+}
+
+.offer6:hover {
+    background-color: grey;
+    color: white;
+    transition: 1s;
+}
+
+.offer1:hover {
+    background-color: grey;
+    color: white;
+    transition: 1.5s;
+} 
+
+.paragraph9 {
+    font-size: 45px;
+    font-weight: 700;
+    margin-left: -850px;
+}
+
+.line4 {
+    width: 90px;
+    height: 4px;
+    background-color: blue;
+    margin-top: 10px;
+    margin-left: 185px;
+    margin-bottom: 30px;
+    display: block;
+}
+
+.firstimg {
+    width: 500px;
+    height: 420px;
+    margin-left: 980px;
+    margin-top: -400px;
+}
+
+.div9 {
+    display: inline-block;
+}
+
+.div10 {
+    display: inline-block;
+}
+
+.first {
+    margin-left: -420px;
+    margin-top: 50px;
+    font-size: 19px;
+    font-weight: bold;
+    color: #7d7d7d;
+}
+
+.space,
+.second,
+.third,
+.forth,
+.fifth {
+    margin-top: 10px;
+    font-size: 19px;
+    font-weight: bold;
+    color: #7d7d7d;
+}
+
+.space {
+    margin-left: -440px;
+}
+
+.second {
+    margin-left: -800px;
+    margin-top: 60px;
+}
+
+.third {
+    margin-left: -680px;
+    margin-top: 60px;
+}
+
+.forth {
+    margin-left: -1045px;
+    margin-top: 60px;
+}
+
+.fifth {
+    margin-left: -930px;
+    margin-top: 60px;
+}
+
+.dots {
+    display: inline-block;
+    margin-left: 1000px;
+}
+
+.dot1,
+.dot2,
+.dot3 {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 10px 5px;
+    background-color: grey;
+    display: inline-block;
+    /* why should i do this */
+}
+
+.dot1 {
+    background-color: blue;
+}
+
+.container {
+    background-color: #fcf9f9;
+}
